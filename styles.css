@@ -94,3 +94,18 @@ hr{
 .ow{
     background-color: var(--grey-color);
 }
+
+/**footer**/
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: whitesmoke;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
