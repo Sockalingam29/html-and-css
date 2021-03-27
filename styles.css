@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 hr{
     margin: 2rem 0rem;
 }
 :root{
    --primary-color:#F43F5E;
-   --grey-color:rgb(95, 88, 95); 
+   --grey-color:#F4F4F5; 
 }
 .container{
     padding-left:1rem;
@@ -28,6 +29,9 @@ hr{
     border: 1px solid var(--primary-color);
     color:  white;
     background-color: var(--primary-color);
+}
+.section .link{
+    margin-left: auto;
 }
 .link-secondary{
     color:var(--primary-color);
@@ -68,6 +72,7 @@ hr{
     padding: 1rem;
 }
 .hero-img{
+    padding-top: 1rem;
     max-width:350px;
     border-radius: 0.5rem; 
     border:3px solid var(--primary-color);
@@ -76,7 +81,7 @@ hr{
 }
 .hero-txt{
     text-align: center;
-    color:var(--grey-color);
+
     padding-top: 1rem;
 
 }
@@ -91,10 +96,10 @@ hr{
 .section{
     padding: 2rem;
     
+    
 }
 .ow{
     background-color: var(--grey-color);
-    color: whitesmoke;
 }
 
 /**footer**/
@@ -110,4 +115,14 @@ footer{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer-header{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.link-active{
+    font-weight: bold;
+}
+.margin-md{
+    margin: 2rem;
 }
