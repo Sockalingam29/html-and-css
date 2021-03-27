@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <input type="color"></input>
+    <h1 id="lib">Welcome to Sockalingam's component library</h1>
+    <p>I'm learning HTML from neog camp and I'm in the process of creating a component library</p>
+    <hr>
+    <h1>@Typography</h1>
+    <h1>This is the Biggest heading</h1>
+    <h2>This is the2nd biggest heading</h2>
+    <p class="typo">This is a paragraph</p>
+    <p>Here we have a <strong>bold </strong>text</p>
+    <small class="typo">This is a Smaller text</small>
+
+    <h1>@Container</h1>
+    <h2>Fluid container</h2>
+    <div class="container">This will go till the end of the page</div>
+    <h2>Center container</h2>
+    <div class="container-center">This will go till a specified width</div>
+
+    <h1>@Links</h1>
+    <a class="link link-primary"  href="https://www.google.com">Google</a>
+    <!--Links have 2 types: primary and secondary-->
+    <a class="link link-secondary" href="/">secondary link</a>
+    <hr>
+
+    <h1>@Lists</h1>
+    <!--There are to lists ordered and unordered-->
+    <h3>Unordered list</h3>
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <h3>Unordered inline list(Can be made using CSS)</h3>
+    <ul>
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">Item two</li>
+        <li class="list-item-inline">Item three</li>
+    </ul>
+    <h3>Reverse ordered list</h3>
+    <ol reversed>
+        <li>Milk</li>
+        <li>Boost</li>
+    </ol>
+
+
+    <hr>
+    <h1>@Navigation</h1>
+    <nav class="navigation">
+        <div class="nav-head">iamDeveloper</div>
+        <ul class="list-non-bullet list-right">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h1>@Header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/code.svg" />
+        <h1 class="hero-txt">Heading <span class="heading-inverted">color changes</span></h1>
+    </header>
+    <img src="https://pbs.twimg.com/profile_images/1346097753722523648/L1oqpCm3_x96.jpg" />
+    <hr>
+
+    <h1>@Sections</h1>
+    <section class ="section">
+        <div class="container-center"><h1>white section</h1>
+        <p>This sets the BG white</p>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container-center"><h1>grey section</h1>
+
+        <p>BG becomes grey</p>
+    </div>
+    </section>
+
+    <hr>
+    <h1>@footer</h1>
+    <footer class="footer">
+        <div>some text(no h1,h2 should be used)</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">One</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Two</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Three</a></li>
+
+        </ul>
+    </footer>
+
+    <!-- Three ways to implement CSS
+            1.Style tag
+            <style>
+            body{
+                 color:red
+            }
+            </style>
+            
+            2. Attributes
+            <h1 style="color:red" >HI</h1>
+            
+            3. Creating file styles.css and an external link
+            Refer line 9
+        -->
+        
+
+
+</body>
+
+</html>
