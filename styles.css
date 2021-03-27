@@ -83,4 +83,14 @@ hr{
     color:var(--primary-color);
 }
 
-/
+/**section**/
+.section h1{
+    text-align: center;
+}
+.section{
+    padding: 2rem;
+    
+}
+.ow{
+    background-color: var(--grey-color);
+}
