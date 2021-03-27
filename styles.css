@@ -2,6 +2,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+:root{
+   --primary-color:#F43F5E
+   ; 
+}
 .container{
     padding-left:1rem;
     padding-right:1rem;
@@ -9,4 +13,12 @@ body{
 .container-center{
     max-width: 600px;
     margin:auto;/** Centers the eleme **/
+}
+
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+}
+.primary-link{
+    color:var(--primary-color);
 }
