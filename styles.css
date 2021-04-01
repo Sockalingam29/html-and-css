@@ -22,14 +22,22 @@ hr{
 .link{
     text-decoration:none;
     padding:0.5rem 1rem;
+    text-shadow: 1px;
+}
     
+
+.link:hover{
+    text-decoration: underline;
 }
 .link-primary{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     color:  white;
     background-color: var(--primary-color);
+    box-shadow: 2px 2px 2px 2px
 }
+
+
 .section .link{
     margin-left: auto;
 }
