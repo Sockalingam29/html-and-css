@@ -2,6 +2,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
+    max-width: 100%;
 }
 hr{
     margin: 2rem 0rem;
@@ -34,7 +35,7 @@ hr{
     border: 1px solid var(--primary-color);
     color:  white;
     background-color: var(--primary-color);
-    box-shadow: 2px 2px 2px 2px
+    box-shadow: 2px 2px 2px 2px;
 }
 
 
@@ -133,4 +134,12 @@ footer{
 }
 .margin-md{
     margin: 2rem;
+}
+#project{
+    display: flex;
+    flex-direction: column;
+}
+.project-link{
+    display: flex;
+    
 }
