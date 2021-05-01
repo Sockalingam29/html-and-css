@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
+    margin: 0 0 180px;
     max-width: 100%;
 }
 hr{
@@ -123,6 +123,11 @@ footer{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    position:absolute;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
 }
 .footer .link{
     color: white;
