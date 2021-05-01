@@ -119,12 +119,12 @@ html{
 /**footer**/
 footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
+    width: 100%;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
     position:absolute;
-    width:100%;
     left: 0;
     bottom: 0;
     overflow: hidden;
